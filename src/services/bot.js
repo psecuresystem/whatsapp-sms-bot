@@ -51,6 +51,10 @@ class WhatsappBot {
     this.client = await venom.create({
       session: 'kingdom_keys', //name of session
       multidevice: true, // for version not multidevice use false.(default: true)
+      puppeteerOptions: {
+        executablePath: 'google-chrome',
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      },
     });
     this.createBot();
   }
