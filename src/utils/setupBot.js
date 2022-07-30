@@ -7,6 +7,7 @@ const SmsHandler = require('../services/messageHandler');
 module.exports = function () {
   const smsHandler = new SmsHandler();
   const dbHandler = new DbHandler(db_client);
+
   const commandHandler = new CommandHandler(dbHandler, smsHandler);
   const bot = new WhatsappBot(commandHandler, smsHandler);
 
