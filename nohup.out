@@ -1,0 +1,217 @@
+yarn run v1.22.18
+$ nodemon src/index.js
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:173:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:562:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ node src/index.js
+client gotten
+
+
+
+ /\\\      /\\\ /\\\\\\\\\\  /\\\\\     /\\\    /\\\\\\\\    /\\\      \\\\      
+ \/\\\     /\\\ \/\\\_____/  \/\\\ \\\  \/\\\  /\\\_____/\\\ \/\\\ \\ \\ \\\     
+   \/\\\   /\\\  \/\\\        \/\\\ /\\\ \/\\\ \/\\\    \/\\\ \/\\\  \\\  \\\    
+    \/\\\  /\\\   \/\\\\\\\\\\ \/\\\  /\\\ /\\\ \/\\\    \/\\\ \/\\\  \\\  \\\   
+      \/\\\ \\\    \/\\\_____/  \/\\\ \/\\\ /\\\ \/\\\    \/\\\ \/\\\  \\\  \\\  
+       \/\\\\\\     \/\\\        \/\\\ \ /\\\ \\\ \/\\\    \/\\\ \/\\\  \\\  \\\ 
+        \/_/\\\      \/\\\\\\\\\\ \/\\\  \/_\\\\\\ \/_/\\\\\\\\\  \/\\\  \\\  \\\
+          \/__/       \/________/  \/_/    \/____/    \/_______/   \/_/ \/_/ \/_/
+
+
+
+[32minfo[39m:     https://orkestral.io - official site!
+
+[32minfo[39m:     [kingdom_keys] Waiting... checking the browser...
+Connected!
+db created
+yarn run v1.22.18
+$ node src/index.js
+client gotten
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dr/messaging/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/dr/messaging/src/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ node src/index.js
+client gotten
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dr/messaging/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/dr/messaging/src/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ node src/index.js
+client gotten
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dr/messaging/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/dr/messaging/src/index.js:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[32minfo[39m:     [kingdom_keys] Browser successfully opened
+[32minfo[39m:     [kingdom_keys] checking headless...
+[32minfo[39m:     [kingdom_keys] headless option is active, browser hidden
+[32minfo[39m:     [kingdom_keys] Checking page...
+[32minfo[39m:     [kingdom_keys] Page successfully accessed
+- [instance: kingdom_keys]: Waiting page load
+- [instance: kingdom_keys]: Checking is logged...
+- [instance: kingdom_keys]: Authenticated
+- [instance: kingdom_keys]: Checking phone is connected...
+- [instance: kingdom_keys]: Connected
+[
+  {
+    name: 'add user',
+    param: true,
+    isTotal: false,
+    commandFunc: 'addUser'
+  },
+  {
+    name: 'remove user',
+    param: true,
+    isTotal: false,
+    commandFunc: 'removeUser'
+  },
+  {
+    name: 'get all users',
+    param: false,
+    isTotal: false,
+    commandFunc: 'getAllUsers'
+  },
+  {
+    name: 'get remaining amount',
+    param: false,
+    isTotal: false,
+    commandFunc: 'getRemainingAmount'
+  },
+  {
+    name: 'kingdom keys',
+    param: true,
+    isTotal: true,
+    commandFunc: 'kingdomKeys'
+  },
+  { name: 'ping', param: false, isTotal: false, commandFunc: 'pong' }
+]
+2
+- [instance: kingdom_keys]: Page Closed
+yarn run v1.22.18
+$ nodemon src/index.js
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:173:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:562:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.18
+$ nodemon src/index.js
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:173:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:562:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
