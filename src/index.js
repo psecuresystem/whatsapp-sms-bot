@@ -1,11 +1,10 @@
 const express = require('express');
-const { config } = require('dotenv');
+require('dotenv').config();
 const CommandHandler = require('./services/commandHandler');
 const db_client = require('./db');
 const DbHandler = require('./services/dbHandler');
 const SmsHandler = require('./services/messageHandler');
 
-config();
 const app = express();
 const smsHandler = new SmsHandler();
 const dbHandler = new DbHandler(db_client);
