@@ -5,14 +5,16 @@ class DbHandler {
 
   async addUser(number) {
     try {
-      await this.this.db_client.query(
+      await this.db_client.query(
         `
             INSERT INTO kk(number)
-            VALUES (${number});
-        `
+            VALUES ($1);
+        `,
+        [number]
       );
       return true;
     } catch (error) {
+      console.log(error);
       return false;
     }
   }
@@ -23,7 +25,7 @@ class DbHandler {
         await this.db_client.query(`
             SELECT * FROM kk;
           `)
-      ).rows.map((num) => `+234${num.number}`);
+      ).rows.map((num) => `+234${num.number.slice(1)}`);
       return users;
     } catch (error) {
       console.log(error);

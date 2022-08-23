@@ -77,7 +77,7 @@ class WhatsappBot {
   decodeCommand(message) {
     let id = 0;
     for (const command of commands) {
-      if (message.body.toLowerCase().startsWith(command.name)) {
+      if (message.body.toLowerCase().startsWith(command.name.toLowerCase())) {
         return id;
       }
       id += 1;

@@ -16,7 +16,8 @@ class CommandHandler {
   }
 
   async addUser(message, command, reply) {
-    const number = message.body.toLowerCase().split('add user')[1].trim();
+    const number = message;
+    console.log(number);
     const status = await this.dbHandler.addUser(number);
     status
       ? reply('Number has been added')
@@ -28,15 +29,16 @@ class CommandHandler {
     await reply(`${balance}`);
   }
 
-  async getAllUsers(message, command, reply) {
+  async getAllUsers(reply) {
     let numbers = await this.dbHandler.getAllUsers();
     numbers
       ? reply(numbers.toString())
       : reply('Error occurred during getting numbers');
+    return numbers;
   }
 
   async removeUser(message, command, reply) {
-    let number = message.body.split(' ')[2];
+    let number = message;
     const status = await this.dbHandler.removeUser(number);
     status
       ? await reply('Successfully deleted')
