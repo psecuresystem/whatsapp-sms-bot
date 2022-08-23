@@ -53,7 +53,7 @@ class CommandHandler {
     }
     let first_balance = await this.smsHandler.getBalance();
     console.log(first_balance);
-    let response = await this.smsHandler.sendSms(numbers, message.body);
+    let response = await this.smsHandler.sendSms(numbers, message);
     console.log(response);
     let second_balance = await this.smsHandler.getBalance();
     console.log(second_balance);
