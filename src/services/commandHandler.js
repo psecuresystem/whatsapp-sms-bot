@@ -19,9 +19,6 @@ class CommandHandler {
     const number = message;
     console.log(number);
     const status = await this.dbHandler.addUser(number);
-    status
-      ? reply('Number has been added')
-      : reply('Error occurred during adding number');
   }
 
   async getRemainingAmount(message, command, reply) {
@@ -31,9 +28,6 @@ class CommandHandler {
 
   async getAllUsers(reply) {
     let numbers = await this.dbHandler.getAllUsers();
-    numbers
-      ? reply(numbers.toString())
-      : reply('Error occurred during getting numbers');
     return numbers;
   }
 
