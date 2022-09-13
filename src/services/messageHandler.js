@@ -18,6 +18,13 @@ class SmsHandler {
         '%20'
       )}`
     );
+    console.log(
+      `https://smsexperience.com/api/sms/sendsms?username=VisionOnyeaku&password=danz6278&sender=KWM%20KK&recipient=${numbersInString}&message=${replaceAll(
+        message,
+        ' ',
+        '%20'
+      )}`
+    );
     return data;
   }
 }
