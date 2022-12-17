@@ -2,7 +2,7 @@ const { Pool } = require('pg');
 console.log('client gotten');
 const db_client = new Pool({
   connectionString:
-    'postgres://efokczuviswuly:66fafc7c5f9c01af12206c099d55ee73181d2fac044a27eb1035c73c9373718a@ec2-44-193-178-122.compute-1.amazonaws.com:5432/d4umkcdictl8o2',
+    'postgres://user:avhL0uyR57UH1JgjQUOA40FFcfnvxKuU@dpg-cef4dko2i3mum5u8ckug-a.oregon-postgres.render.com/users_014a',
   ssl: {
     rejectUnauthorized: false,
   },
