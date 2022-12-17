@@ -12,6 +12,10 @@ const dbHandler = new DbHandler(db_client);
 const commandHandler = new CommandHandler(dbHandler, smsHandler);
 
 app.use(express.json());
+app.use((req, res, next) => {
+  console.log('Request');
+  next();
+});
 
 app.get('/', (req, res) => {
   res.send('Hello world');
